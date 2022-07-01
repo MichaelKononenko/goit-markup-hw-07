@@ -38,6 +38,11 @@
 .footer-contacts__link {
   color: var(--footer-contacts-color);
   transition: color var(--primary-transition-time) var(--primary-cubic-function);
+  &:hover,
+  &:focus {
+    color: var(--action-color);
+    transition: color var(--primary-transition-time) var(--primary-cubic-function);
+  }
 }
 .join {
   margin-right: auto;

@@ -32,6 +32,10 @@
   color: var(--primary-text-color);
   position: relative;
   transition: color var(--primary-transition-time) var(--primary-cubic-function);
+  &:hover,
+  &:focus {
+    color: var(--action-color);
+  }
 }
 
 .site-nav__link--current {
